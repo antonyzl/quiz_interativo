@@ -25,71 +25,71 @@ const perguntas = [
         texto: "com caroço",
         afirmacao: [
           "Eu ja nao gosto de azeitona, mas discordo",
-          "afirmação 2"
+          "E se voce se engasgar?"
         ],
       },
       {
-        texto: "alternativa 2",
+        texto: "sem caroço",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Bem melhor mesmo!",
+          "Isso ai, sem chance de engasgar"
         ],
       }
     ]
   },
     {
-      enunciado: "Pergunta 1",
+      enunciado: "Quantas vezes voce toma banho ao dia?",
     alternativas: [
       {
-        texto: "alternativa 1",
+        texto: "Entre 0 a 2",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Tem que tomar mais!",
+          "Corre o risco de voce ter mal odor!"
         ],
       },
       {
-        texto: "alternativa 2",
+        texto: "2 banhos ou mais",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Parabens! voce deve ser limpo!",
+          "Eu tambem, tomo de 2 a 3!"
         ],
       }
     ]
   },
     {
-      enunciado: "Pergunta 1",
+      enunciado: "Qual luta mais eficaz, muay thai ou jj?"
     alternativas: [
       {
-        texto: "alternativa 1",
+        texto: "muay thai",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Concordo, em uma briga de rua, muay thai seria mais eficaz",
+          "Temos a mesma opniao sobre esse assunto!"
         ],
       },
       {
-        texto: "alternativa 2",
+        texto: "Jiu Jitsu",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Otima luta, mas se tomar um soco do muay thai ja apaga"
+          "Se cairem no chao, claremente jiu jitsu ganharia"
         ],
       }
     ]
   },
     {
-      enunciado: "Pergunta 1",
+      enunciado: "Qual capital do brasil?"
     alternativas: [
       {
-        texto: "alternativa 1",
+        texto: "Brasília",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Voce está correto!",
+          "Parabens, voce acertou!"
         ],
       },
       {
-        texto: "alternativa 2",
+        texto: "Sao Paulo",
         afirmacao: [
-          "afirmação 1",
-          "afirmação 2"
+          "Voce errou!",
+          "Errado, a capital do brasil é Brasília"
         ],
       }
     ]
