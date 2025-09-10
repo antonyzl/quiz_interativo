@@ -5,6 +5,8 @@ const caixaPrincipal = document.querySelector(".caixa-principal;");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector (".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector (".iniciar-btn");
 const telaIniciar = document.querySelector(".tela-inicial");
 
@@ -16,6 +18,7 @@ botaoIniciar.addEventListener('click', iniciarJogo);
 
 function iniciaJogo() {
     atual = 0;
+    historiaFinal = "";
     telaInicial.style.display = 'none';
     caixaPerguntas.classList.remove(".mostrar");
     caixaAlternativas.classList.remove(".mostrar");
@@ -34,7 +37,16 @@ function mostrarPergunta(){
   mostraAlternativas();
 }
 
-function mostraAlternativas() {}
+function mostraAlternativas() {
+  for(const alternativas of perguntaAtual.alternativas){
+    const botaoAlternativas = document.createElement("button");
+    botaoAlternativas.textContent = alternativas.texto;
+    botaoAlternativas.addEventListener("click", ()=> respostaSelecionada(alternativa));
+    caixaAlternativas.appendChild(botaoAlternativas);
+  }
+}
+
+function respostaSelecionada(opcaoSelecionada) {}
 
 function mostraResultado() {
   caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
