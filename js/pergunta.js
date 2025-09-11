@@ -1,95 +1,95 @@
 const perguntas = [
   {
-      enunciado: "Quem ganharia em uma luta sem armas, 1 Gorila ou 100 humanos",
+      enunciado: "Você vai entrar na floresta ou vai ficar em casa?",
     alternativas: [
       {
-        texto: "Gorila",
+        texto: "Entrar na floresta",
         afirmacao: [
-          "Poxa, eu ja acho que voce está errado",
-          "Você tem certeza?"
+          "",
+          ""
         ],
       },
       {
-        texto: "100 humanos",
+        texto: "Ficar em casa",
         afirmacao: [
-          "Parabens, eu estou com você nessa!",
-          "Eu tambem concordo!"
+          "",
+          ""
         ],
       }
     ]
   },
     {
-      enunciado: "Voce prefere, azeitona com ou sem caroço?",
+      enunciado: "Você entrou na floresta. Vai seguir o caminho de pedras ou o de terra?",
     alternativas: [
       {
-        texto: "com caroço",
+        texto: "Caminho de pedras",
         afirmacao: [
-          "Eu ja nao gosto de azeitona, mas discordo",
-          "E se voce se engasgar?"
+          "",
+          ""
         ],
       },
       {
-        texto: "sem caroço",
+        texto: "Caminho de terra",
         afirmacao: [
-          "Bem melhor mesmo!",
-          "Isso ai, sem chance de engasgar"
+          "",
+          ""
         ],
       }
     ]
   },
     {
-      enunciado: "Quantas vezes voce toma banho ao dia?",
+      enunciado: "Você ouviu um barulho. Vai correr ou vai se esconder?",
     alternativas: [
       {
-        texto: "Entre 0 a 2",
+        texto: "Correr",
         afirmacao: [
-          "Tem que tomar mais!",
-          "Corre o risco de voce ter mal odor!"
+          "",
+          ""
         ],
       },
       {
-        texto: "2 banhos ou mais",
+        texto: "Se esconder",
         afirmacao: [
-          "Parabens! voce deve ser limpo!",
-          "Eu tambem, tomo de 2 a 3!"
+          "",
+          ""
         ],
       }
     ]
   },
     {
-      enunciado: "Qual luta mais eficaz, muay thai ou jj?"
+      enunciado: "Você encontrou uma cabana. Vai bater na porta ou espiar pela janela?"
     alternativas: [
       {
-        texto: "muay thai",
+        texto: "Bater na porta",
         afirmacao: [
-          "Concordo, em uma briga de rua, muay thai seria mais eficaz",
-          "Temos a mesma opniao sobre esse assunto!"
+          "",
+          ""
         ],
       },
       {
-        texto: "Jiu Jitsu",
+        texto: "Espiar pela janela",
         afirmacao: [
-          "Otima luta, mas se tomar um soco do muay thai ja apaga"
-          "Se cairem no chao, claremente jiu jitsu ganharia"
+          ""
+          ""
         ],
       }
     ]
   },
     {
-      enunciado: "Qual capital do brasil?"
+      enunciado: "Você viu uma pessoa lá dentro. Vai falar com ela ou vai embora?"
     alternativas: [
       {
-        texto: "Brasília",
+        texto: "Falar com ela",
         afirmacao: [
-          "Voce está correto!",
-          "Parabens, voce acertou!"
+          "",
+          ""
         ],
       },
       {
-        texto: "Sao Paulo",
+        texto: "Ir embora",
         afirmacao: [
-          "Voce errou!",
-          "Errado, a capital do brasil é Brasília"
+          "",
+          ""
         ],
       }
     ]
