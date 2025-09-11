@@ -46,7 +46,17 @@ function mostraAlternativas() {
   }
 }
 
-function respostaSelecionada(opcaoSelecionada) {}
+function respostaSelecionada(opcaoSelecionada) {
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    historiaFinal += afirmacoes + " ";
+    if(opcaoSelecionada.proximmo !== underfined) {
+        atual = opcaoSelecionada.proxima;
+}else {
+        mostrarResultado();
+        return;
+    }
+    mostrarPergunta();
+}
 
 function mostraResultado() {
   caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
@@ -56,4 +66,16 @@ function mostraResultado() {
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-function jogarNovamente() {}
+function jogarNovamente() {
+    atual = 0;
+    hitstoriaFinal = "";
+    caixaResultado.classlist.remove("mostrar");
+    mostrarPergunta();
+}
+
+function substituiNome() {
+    for(const pergunta of perguntas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+substituiNome();
